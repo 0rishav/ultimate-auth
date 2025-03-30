@@ -12,7 +12,7 @@ npm install ultimate-auth
 ## Setup the Auth System
 
 ```ts
-import Auth from "ultimate-auth";
+import {Auth} from "ultimate-auth";
 import { TokenStorage } from "./your-token-storage-implementation";
 
 // Define Secrets and Expiry Durations
