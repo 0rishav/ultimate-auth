@@ -1,19 +1,24 @@
 {
   "name": "ultimate-auth",
   "version": "1.0.0",
-  "description": "A powerful authentication library for Node.js using JWT",
+  "description": "A powerful authentication library for Node.js",
   "main": "dist/index.js",
   "types": "dist/index.d.ts",
   "type": "module",
-  "files": ["dist"],
+ "files": ["dist", "README.md"],
   "scripts": {
     "dev": "node --loader ts-node/esm lib/index.ts",
     "build": "tsc",
     "start": "node dist/index.js",
     "prepublishOnly": "npm run build"
   },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/0rishav/ultimate-auth.git"
+  },
+  "homepage": "https://github.com/0rishav/ultimate-auth/blob/main/README.md",
   "keywords": ["authentication", "jwt", "security", "typescript"],
-  "author": "Your Name",
+  "author": "Rishav Raj",
   "license": "MIT",
   "devDependencies": {
     "@types/node": "^22.13.14",
